@@ -1,0 +1,54 @@
+
+
+body{
+ background-color: chocolate;
+ width:100% ;
+ height:800px ;
+
+}
+
+header {
+ text-align: center;
+}
+.about{
+ text-align: center;
+ line-height:40px;
+ font-size: large;
+}
+
+.local{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+
+}
+
+.continental {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+img{
+ width: 400px;
+ height: 300px;
+ border-top-right-radius:20%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius:20%;
+}
+
+h2{
+ margin-left:40px;
+}
+p{
+ margin-left: 40px;
+ 
+}
+footer{
+ width: 100%;
+ background-color: coral;
+ color: chartreuse;
+ height:50px;
+ font-size:20px;
+ text-align: center;
+ padding-top:10px ;
+}
